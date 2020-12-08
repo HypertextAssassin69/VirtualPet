@@ -43,7 +43,7 @@ function draw() {
   text("NOTE:"+ "Press Up Arrow key to feed milk to your dog",25,50);
    if (foodS === 0){
     dog.addImage("dog",dog_img); 
-    text("press space to make more food to feed drago the food ",10,400)
+    text("press space to make more food to feed drago the food ",1,400)
      if(keyWentDown("space")){
       database.ref('/').update({
         Food:20,
